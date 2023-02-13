@@ -27,6 +27,6 @@ list.style.padding = "50px";
 list.style.justifyContent = "centre";
 list.style.alingnItems = "center";
 list.style.listStyleType = "none";
-list.style.backgroundColor = "darkseagreen";
+list.style.backgroundColor = "violet";
 
 photos.forEach(photo => photo.style.borderRadius = "8px");
