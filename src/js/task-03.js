@@ -16,7 +16,7 @@ const list = document.querySelector(".gallery");
 const htmlMarkup = images
 .map(
   (image) => 
-  '<li><img class ="photo" src ="${image.url}" width ="333" alt ="${image.alt}"></li>'
+  `<li class="photo"><img src="${image.url}" width="333" hight="200" alt="${image.alt}"></li>`
 ).join("");
 list.insertAdjacentHTML("beforeend", htmlMarkup);
 
@@ -29,3 +29,5 @@ list.style.alingnItems = "center";
 list.style.listStyleType = "none";
 list.style.borderRadius = "50px";
 list.style.backgroundColor = "darkseagreen";
+
+photos.forEach(photo => photo.style.borderRadius = "8px" )
