@@ -16,9 +16,10 @@ const list = document.querySelector("gallery");
 const htmlMarkup = images
 .map(
   (image) => 
-  '<li><img class = "photo" src = "${image.url}" width = "333" alt = "${image.alt}"></li>'
+  '<li><img class ="photo" src ="${image.url}" width ="333" alt ="${image.alt}"></li>'
 ).join("");
 list.insertAdjacentHTML("beforeend, htmlMarkup");
+
 const photos = document.querySelectorAll(".photo");
 list.style.display = "flex";
 list.style.gap = "30px";
