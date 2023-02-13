@@ -18,7 +18,7 @@ const htmlMarkup = images
   (image) => 
   '<li><img class ="photo" src ="${image.url}" width ="333" alt ="${image.alt}"></li>'
 ).join("");
-list.insertAdjacentHTML("beforeend, htmlMarkup");
+list.insertAdjacentHTML("beforeend", htmlMarkup);
 
 const photos = document.querySelectorAll(".photo");
 list.style.display = "flex";
