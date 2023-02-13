@@ -30,4 +30,4 @@ list.style.listStyleType = "none";
 list.style.borderRadius = "50px";
 list.style.backgroundColor = "darkseagreen";
 
-photos.forEach(photo => photo.style.borderRadius = "8px" )
+photos.forEach(photo => photo.style.borderRadius = "8px");
