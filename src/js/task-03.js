@@ -12,7 +12,7 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
-const list = document.querySelector("gallery");
+const list = document.querySelector("#gallery");
 const htmlMarkup = images
 .map(
   (image) => 
